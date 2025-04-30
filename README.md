@@ -14,6 +14,7 @@ This project includes a simple script (`generateTree.cjs`) that prints a **color
 ## 🚀 How to Use
 
 ### 1. Add the Script
+
 The tree script is saved at:
 
 ```
@@ -26,7 +27,7 @@ Add this to your `scripts` section:
 
 ```json
 "scripts": {
-  "tree": "node scripts/generateTree.cjs"
+    "tree": "npx ts-node scripts/generateTree.ts" ,
 }
 ```
 
